@@ -11,7 +11,6 @@ public class App {
 		float rate = (float) (interestRate / 100);
 		for(int i = 1; i <= month; i++) {
 			total = (total + deposits) * (1 + rate);
-			
 		}
 		return total;
 	}
